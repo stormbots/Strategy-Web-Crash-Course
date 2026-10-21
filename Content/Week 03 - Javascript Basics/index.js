@@ -1,151 +1,115 @@
-// Functions
-
-// No paramater, no return
-
-function sayHello(){
-    console.log("Hello")
-}
-
-sayHello()
-
-// Yes parameter, no return
-
-function sayHello2(name){
-    let message = "Hello " + name
-    console.log(message)
-}
-
-sayHello2("Jane")
-
-function sayHello3(name){
-    console.log("Hello", name)
-    console.log("Hello "+name)
-}
-
-sayHello3("John")
-
-// No paramter, yes return
-
-function sayHello4(){
-    let message = "Hello Jill"
-    return message
-}
-
-let messageToJill = sayHello4()
-console.log(messageToJill)
-
-function sayHello5(){
-    return "Hello Jack"
-}
-
-console.log(sayHello5())
-
-// Yes paramter, yes return
-
-function sayHello6(name){
-    let message = "Hello " + name
-    return message
-}
-
-sayHello6("Jane")
-
-function sayHello7(name){
-    return "Hello " + name
-}
-
-sayHello7("John")
-
-
-// Arrays
-
-let ingredients = ["Bacon", "Lettuce", "Tomato"]
-console.log(ingredients)
-
-// Reference value by index
-
-console.log(ingredients[0])
-
-// Add to start or end
-
-ingredients.push("pickles")
-ingredients.unshift("mayonaise")
-console.log(ingredients)
-
-// modify values
-
-ingredients[0] = "ketchup"
-console.log(ingredients)
-
-// Objects
-
-let student = {
-    id: "12345",
+// Types
+// string
+console.log("hello :3")
+// number
+console.log(7)
+// boolean
+console.log(true)
+// null
+console.log(null)
+// undefined
+console.log(undefined)
+// array (aka list)
+console.log(["apples", "bananas", "tomatoes"])
+// object with key value pairs
+console.log({
     name: "Jill",
-    age: 20,
-}
-console.log(student)
+    age: 20
+})
 
-// Reference by key name
+// Variables
+let name = "Jill"
+console.log(name)
+console.log("Hello", name)
 
-console.log(student["age"])
-console.log(student.age)
-
-// Add or modify key value pairs
-
-student["class"] = "pe"
-student.grade = "A+"
-console.log(student)
-
-// Remove key value pair
-
-delete student.grade
-console.log(student)
-
-// Loops
-
-
-// While Loop
-
-let catFed = 0
-
-while(catFed<3){
-    console.log("feed cat")
-    catFed++
-}
-
-// Loop an array 
-
-let students = ["Jane", "John", "Jill", "Jack"]
-
-for(let student in students){
-    console.log(student)
-}
-
-// Loop an array using index
-
-for(let i=0; i<students.length; i++){
-    console.log(students[i])
-}
-
-// Loop an object
+let snack = "Pringles"
+console.log(snack)
+console.log(snack[0])
 
 let house = {
     street: "sesame",
-    price: 100000,
-    rooms: 3,
-    bathrooms: 1.5
+    cost: 120000,
+    rooms:{
+        bedrooms: 3,
+        baths: 1.5
+    }
+}
+console.log(house)
+console.log(house["street"])
+console.log(house.street)
+console.log(house.rooms.baths)
+let roomsInfo = house.rooms
+console.log(roomsInfo.baths)
+
+let grocery = ["rice", "potato", "egg", "chicken tenders"]
+console.log(grocery)
+console.log(grocery[1])
+
+// Changing Values
+snack = "oreos"
+console.log(snack)
+
+house["cost"] = 200000
+console.log(house)
+
+grocery[2] = "beans"
+console.log(grocery)
+
+// Operators
+/*
+== - check if value is equal
+=== - check if value and type are equal
+!= - not equal to value
+!== - not equal to value and type
+>,< - greater than less athen
+>=,<= - greater than equal to, less than equal to
+&& - and
+|| - or
+! - not
++,-,/,* - add, subtract, divide, multiply
+++,-- - increment, decrement
++=, -= - short cut to add and subtract
+*/
+
+// Math
+let apples = 10
+apples = apples + 5
+console.log("I have", apples, "apples")
+
+apples+=3
+console.log("I have", apples, "apples")
+
+apples++
+console.log("I have", apples, "apples")
+
+// Concatenation
+let firstName = "John"
+let lastName = "Doe"
+let fullName = firstName + " " + lastName
+
+console.log("Good morning", fullName)
+
+// Conditionals
+let hungry = true
+if(hungry==true){
+    console.log("Order pizza")
+}else{
+    console.log("Watch tv")
 }
 
-for(let houseKey in house){
-    console.log(houseKey)
-    console.log(house[houseKey])
+let temp = 70
+
+if(temp>80){
+    console.log("too hot!")
+}else if(temp>=60 && temp <=80){
+    console.log("just right")
+}else{
+    console.log("too cold!")
 }
 
-// Practice
+let rainy = true
+let snowy = false
 
-// function with array
-
-//Writa function that recieves a list of names returns a list of good night messages to each person in the list. 
-
-// Function with object
-
+if(rainy==true || snowy==true){
+    console.log("put on a coat")
+}
