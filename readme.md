@@ -48,10 +48,10 @@
 | 8    | 11/17, 11/19  | [API](./Content/Week%2008%20-%20API/readme.md)                                   |
 |      | 11/23 - 11/27 | Thanksgiving Break                                                               |
 | 9    | 12/1, 12/3    | [SQL](./Content/Week%2009%20-%20SQL/readme.md)                                   |
-| 10   | 12/8, 12/10   | [Authentication](./Content/Week%2010%20-%20Authentication/readme.md)             |
-| 11   | 12/15, 12/17  | [Express Basics](./Content/Week%2011%20-%20Express%20Basics/readme.md)           |
+| 10   | 12/8, 12/10   | [Express Basics](./Content/Week%2011%20-%20Express%20Basics/readme.md)           |
+| 11   | 12/15, 12/17  | [Express Advanced](./Content/Week%2012%20-%20Express%20Advanced/readme.md)       |
 |      | 12/21 - 1/1   | Winter Break                                                                     |
-| 12   | 1/5, 1/7      | [Express Advanced](./Content/Week%2012%20-%20Express%20Advanced/readme.md)       |
+| 12   | 1/5, 1/7      | [Authentication](./Content/Week%2010%20-%20Authentication/readme.md)             |
 |      | 1/10          | Kickoff                                                                          |
 | 1    | 1/12, 1/14    | [Scrum](./Content/Week%201%20-%20Scrum/readme.md)                                |
 | 2    | 1/19, 1/21    | [Wireframes](./Content/Week%202%20-%20Wireframes/readme.md)                      |
