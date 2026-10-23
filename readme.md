@@ -48,16 +48,16 @@
 | 8    | 11/17, 11/19  | [API](./Content/Week%2008%20-%20API/readme.md)                                   |
 |      | 11/23 - 11/27 | Thanksgiving Break                                                               |
 | 9    | 12/1, 12/3    | [SQL](./Content/Week%2009%20-%20SQL/readme.md)                                   |
-| 10   | 12/8, 12/10   | [Express Basics](./Content/Week%2011%20-%20Express%20Basics/readme.md)           |
-| 11   | 12/15, 12/17  | [Express Advanced](./Content/Week%2012%20-%20Express%20Advanced/readme.md)       |
+| 10   | 12/8, 12/10   | [Express Basics](./Content/Week%2010%20-%20Express%20Basics/readme.md)           |
+| 11   | 12/15, 12/17  | [Express Advanced](./Content/Week%2011%20-%20Express%20Advanced/readme.md)       |
 |      | 12/21 - 1/1   | Winter Break                                                                     |
-| 12   | 1/5, 1/7      | [Authentication](./Content/Week%2010%20-%20Authentication/readme.md)             |
+| 12   | 1/5, 1/7      | [Authentication](./Content/Week%2012%20-%20Authentication/readme.md)             |
 |      | 1/10          | Kickoff                                                                          |
 | 1    | 1/12, 1/14    | [Scrum](./Content/Week%201%20-%20Scrum/readme.md)                                |
-| 2    | 1/19, 1/21    | [Wireframes](./Content/Week%202%20-%20Wireframes/readme.md)                      |
-| 3    | 1/26, 1/28    | [Layout](./Content/Week%203%20-%20Layout/readme.md)                              |
-| 4    | 2/2, 2/4      | [Styling](./Content/Week%204%20-%20Styling/readme.md)                            |
-| 5    | 2/9, 2/11     | [API](./Content/Week%205%20-%20API/readme.md)                                    |
+| 2    | 1/19, 1/21    | [Layout](./Content/Week%202%20-%20Layout/readme.md)                      |
+| 3    | 1/26, 1/28    | [Styling](./Content/Week%203%20-%20Styling/readme.md)                              |
+| 4    | 2/2, 2/4      | [API](./Content/Week%204%20-%20API/readme.md)                            |
+| 5    | 2/9, 2/11     | [Integration](./Content/Week%205%20-%20Integration/readme.md)                                    |
 | 6    | 2/16, 2/18    | [Authentication](./Content/Week%206%20-%20Authentication/readme.md)              |
 | 7    | 2/23, 2/25    | [Deployment](./Content/Week%207%20-%20Deployment/readme.md)                      |
 |      | 4/5 - 4/9     | Spring Break                                                                     |
