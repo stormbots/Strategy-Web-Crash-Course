@@ -37,7 +37,7 @@
 
 | Week | Dates         | Topic                                                                            |
 | :--- | :------------ | :------------------------------------------------------------------------------- |
-| 0    | 9/22, 9/24    | Introductions                                                                    |
+| 0    | 9/22, 9/24    | [Setup](./Content/Week%2000%20-%20Setup/readme.md)                               |
 | 1    | 9/29, 10/1    | [HTML Basics](./Content/Week%2001%20-%20HTML%20Basics/readme.md)                 |
 | 2    | 10/6, 10/8    | [HTML Advanced](./Content/Week%2002%20-%20HTML%20Advanced/readme.md)             |
 | 3    | 10/13, 10/15  | [Javascript Basics](./Content/Week%2003%20-%20Javascript%20Basics/readme.md)     |
