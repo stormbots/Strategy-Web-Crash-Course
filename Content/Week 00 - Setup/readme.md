@@ -9,7 +9,8 @@
 - Install node `sudo apt install nodejs`
 - Install postgres `sudo apt install postgresql postgresql-contrib`
 - Install git `sudo apt install git`
-- Check if postgres is running `sudo systemctl status postgresql`
+- Install npm and node by entering commands listed [here](https://nodejs.org/en/download). 
+- Check if postgres is running `sudo systemctl status postgresql` - 
 - Type `psql` in the terminal to view an error message for a username psql tries to connect to by default
 - Connect to postgres `sudo -u postgres psql`
 - Create a user with the username that showed up in the error message earlier `create user username;`
