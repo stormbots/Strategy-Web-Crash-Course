@@ -95,13 +95,14 @@ export function Admin({ pizzas, setPizzas }) {
                     ))}
                 </div>
 
+                <button className = "formButton" type="submit" disabled={isPending}>
+                    {isPending ? "Adding Pizza..." : "Add Pizza"}
+                </button>
+
                 {formState?.message && (
                     <div className = "formStateMessage">{formState.message}</div>
                 )}
 
-                <button type="submit" disabled={isPending}>
-                    {isPending ? "Adding Pizza..." : "Add Pizza"}
-                </button>
             </form>
 
         </>

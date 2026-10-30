@@ -64,3 +64,23 @@ main{
 footer{
     grid-area: footer;
 }
+
+form{
+    border:1px solid black;
+    padding: 10px
+}
+
+
+.formStateMessage{
+    font-weight: bold;
+    margin: 10px 0px
+    
+}
+
+.formButton{
+    padding:10px
+}
+
+.formQuestion{
+    padding: 10px 0px 
+}
